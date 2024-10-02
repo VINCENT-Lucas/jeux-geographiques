@@ -1,11 +1,9 @@
-import pyautogui, keyboard, requests, time, random
-from bs4 import BeautifulSoup
+import pyautogui, keyboard
 import easyocr
 
 '''
 V1, meilleur score: 103 667
 '''
-
 
 def lire_monument(reader):
     text_ = reader.readtext('screenshot.png')

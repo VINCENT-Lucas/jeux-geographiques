@@ -45,7 +45,7 @@ def start_training(quizzname=None):
                     data[nom_monument] = (pos[0], pos[1])
                     print(f"NOUVELLES DONNEES: {nom_monument, (pos[0], pos[1])}")
             else:
-                print("-------TAG-------")
+                #print("-------TAG-------")
                 coords = data[nom_monument]
                 if type(coords)==str:
                     coords = eval(coords)
@@ -97,12 +97,12 @@ def wait_before_new_question():
             return
 
 def detect_end():
-    print('---ENTREE DETECT END')
+    #print('---ENTREE DETECT END')
     end_color = (226, 249, 255)
     screenshot = pyautogui.screenshot()
     img = screenshot.convert("RGB")
     if img.getpixel((726, 141)) == end_color and img.getpixel((1165, 140)) == end_color and img.getpixel((731, 884)) == end_color and img.getpixel((1179, 878)) == end_color:
-        print('---DETECTEE')
+        #print('---DETECTEE')
         return True
     return False
 
