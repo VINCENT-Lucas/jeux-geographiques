@@ -38,7 +38,7 @@ En suite, on attend que la barre de droite commence à nouveau à descendre (ce 
 
 ![Détection de la barre](assets/BarDetection.png)
 
-On détecte un pixel blanc sur la zone du haut, et un pixel blanc sur la zone du bas, ce qui permet d'assurer un très bon temps de ping (1.1s en moyenne)
+On détecte un pixel blanc sur la zone du haut, et un pixel vert sur la zone du bas, ce qui permet d'assurer un très bon temps de ping (1.1s en moyenne)
 
 ## Le quizz se termine
 
